@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+*{
+margin: 0;
+padding:0;
+
+}
+
+.sidebar{
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 150px;
+   
+    font-family: 'Fira Sans', sans-serif;
+    height:2vh;
+    transition: transform 0.3 ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding:33px 0;
+
+    
+}
+.sidebar nav li a{
+   text-decoration:none;
+   color:white;
+
+    
+}
+.main{
+ 
+width:90vw;
+}
+.container{
+display:flex;
+    
+}
+.infoContainer{
+
+   /* background-color: pink;*/
+    height: 58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 16px;
+display:flex;
+justify-content: center;
+flex-direction: column;
+
+font-family: 'Source Code Pro', monospace;
+
+}
+.hello{
+    font-size:3em;
+font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.buttons{
+    margin-top: 2.2em ;
+    font-size: 16px;
+}
+.btn{
+    padding:9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: plum;
+    font-weight: bold;
+    font-size: 2em;
+    margin:3px 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19;
+    margin: 12px 0;
+}
+.buttons button:hover{
+    
+    background-color: white;
+    color:powderblue;
+
+}
+.devPic img{
+    height:220vh;
+    width: 800px;
+
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+.contactform{
+    padding-top:144px;
+    padding:0 34px;
+    font-family: 'Fira Sans', sans-serif;  
+    margin:25px 88px;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display:flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width:16vw;border-radius: 5px;
+margin: 6px 0;
+padding: 3px;
+
+
+
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin:0 5px;
+}
+#form-check input{
+    width: 24px;
+    margin:3px 0;
+}
+#form-check{
+  flex-direction: row;
+}
+
+.blogItem{
+    margin: 20px;
+
+    font-family: 'Fira Sans', sans-serif;  
+
+}
+.blogContainer{
+    margin:25px 88px;
+}
+.blogcontainer h2{
+    font-family: 'Fira Sans', sans-serif;   
+    margin:23px 
+}
+.blogItem p{
+    font-family: 'Source Code Pro', monospace; 
+}
+.into h2{
+    font-family: 'Fira Sans', sans-serif;   
+    margin: 0 12px;
+
+}
+.intro p{
+    font-family: 'Fira Sans', sans-serif;    
+    margin: 12px
+}
+
+.skillcontainer{
+padding:12px;
+}
+.skill{
+    width:23;
+    height:23px;
+    background-color: red;
+    border:2px solid black;
+    
+}
+.skillItem{
+display:flex;
+align-items: center;
+
+
+}
+.hundred{
+    width:265px;
+}
+.fifty{
+    width:200px;
+}
+.thirty{
+    width:170px;
+}
+.twenty{
+    width:150px;
+    background-color: blueviolet;
+}
+.ten{
+    width:100px;
+    background-color: aqua;
+} 
+.t5{
+    width:222px;
+    background-color:yellowgreen ;
+}
+.sidebarGo{
+    transform:translate(-500px,0px);
+        position:absolute;
+    }
+    
+
+.hamburger{
+position:absolute;
+cursor:pointer;
+top:10px;
+left:10px;
+
+
+}
+.ham{
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.cross{
+    margin-left: 155px;
+}
+@media(max-width:1615px){
+   *{ background-color: rgb(148, 124, 124)};  
+
+
+   .devPic{
+       display:none;
+   }
+   .devInfo{
+       font-size: 10px;
+   }
+   .buttons{
+       font-size: 7px;
+   }
+
+ /*.sidebar{
+transform:translate(-443px,0px);
+    position:absolute;
+}
+
+
+*/
+}
+.intro,.blogContainer,.contactform{
+    margin:50px 8px;
+}
+
+
+
+.section-work-data{
+    background-color: var(--gradientSupport);
+text-align: center ;
+transition:all 0.8s linearly;
+color: white;
+}
+.counter-numbers{
+   font-size:4.8rem ; 
+}
+.section-work-data p{
+    color: white;
+}
